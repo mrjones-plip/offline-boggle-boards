@@ -9,12 +9,13 @@ If you load this app on your laptop while online, it will continue to work witho
 
 ## Using
 
-The easiest way to use this is to go to the web site and then just keep the page open.
+The easiest way to use this is to go to [the website](https://mrjones-plip.github.io/offline-boggle-boards/) and then just keep the page open.
 
 You can also download this repo and open the `index.html` page.
 
 ## Outstanding features
 
+* [ ] add timer 
 * [ ] mobile support
 * [ ] ability to generate a page full of boards for printing/saving as PDF
 
