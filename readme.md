@@ -21,6 +21,7 @@ After the page is loaded, you provide the 3-minute timer, paper and writing uten
 * [X] mobile support
 * [ ] fix font sizing/centering
 * [ ] enable pause
+* [ ] add dark mode
 * [ ] ability to generate a page full of boards for printing/saving as PDF
 
 ## Thanks
