@@ -21,7 +21,7 @@ After the page is loaded.  When you're ready to play a new game, click the "New 
    **A:** Make the browser window narrower.
 1. **Q:** Wait...where do I enter in my words?
 
-   **A:** Tou provide the paper and writing utensils ;)
+   **A:** You provide the paper and writing utensils ;)
 
 ## Outstanding features
 
