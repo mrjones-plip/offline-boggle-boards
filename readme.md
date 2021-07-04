@@ -13,10 +13,14 @@ The easiest way to use this is to go to [the website](https://mrjones-plip.githu
 
 You can also download this repo and open the `index.html` page.
 
+After the page is loaded, you provide the 3-minute timer, paper and writing utensils.  When you're ready to play a new game, click the "New Game" button.
+
 ## Outstanding features
 
-* [ ] add timer 
-* [ ] mobile support
+* [X] add timer
+* [X] mobile support
+* [ ] fix font sizing/centering
+* [ ] enable pause
 * [ ] ability to generate a page full of boards for printing/saving as PDF
 
 ## Thanks
