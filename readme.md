@@ -2,7 +2,7 @@
 
 This project is the answer to the question, "What's the easiest way to play Boggle on a flight?", but being frustrated that options in the app store all are ad laden.
 
-If you load this app on your laptop while online, it will continue to work without Internet connectivity. Mobile phone support coming soon!
+If you load this app on your  while online, it will continue to work without Internet connectivity.
 
 
 ![Board Example](./offline.boggle.boards.png)
@@ -13,7 +13,7 @@ The easiest way to use this is to go to [the website](https://mrjones-plip.githu
 
 You can also download this repo and open the `index.html` page.
 
-After the page is loaded, you provide the 3-minute timer, paper and writing utensils.  When you're ready to play a new game, click the "New Game" button.
+After the page is loaded, you provide the paper and writing utensils.  When you're ready to play a new game, click the "New Game" button.
 
 ## Outstanding features
 
