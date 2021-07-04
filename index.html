@@ -25,46 +25,44 @@
 <body>
 
   <h1>Offline Boggle Boards</h1>
+
+  <p>
+    <input id="newGame" type="submit" value="New Game">
+    <progress value="360" max="360" id="timer"></progress>
+  </p>
+
+  <div class="board" id="board1">
+    <div class="row">
+      <div class="die" id="die0">&nbsp;</div>
+      <div class="die" id="die1">&nbsp;</div>
+      <div class="die" id="die2">&nbsp;</div>
+      <div class="die" id="die3">&nbsp;</div>
+    </div>
+    <div class="row">
+      <div class="die" id="die4">&nbsp;</div>
+      <div class="die" id="die5">&nbsp;</div>
+      <div class="die" id="die6">&nbsp;</div>
+      <div class="die" id="die7">&nbsp;</div>
+    </div>
+    <div class="row">
+      <div class="die" id="die8">&nbsp;</div>
+      <div class="die" id="die9">&nbsp;</div>
+      <div class="die" id="die10">&nbsp;</div>
+      <div class="die" id="die11">&nbsp;</div>
+    </div>
+    <div class="row">
+      <div class="die" id="die12">&nbsp;</div>
+      <div class="die" id="die13">&nbsp;</div>
+      <div class="die" id="die14">&nbsp;</div>
+      <div class="die" id="die15">&nbsp;</div>
+    </div>
+  </div>
+
+
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/jquery-3.6.0.min.js"></script>
   <script src="js/main.js"></script>
 
-  <p><input id="newGame" type="submit" value="New Game"></p>
-
-  <div id="board1">
-    <div class="row">
-      <div class="die" id="die0">1</div>
-      <div class="die" id="die1"></div>
-      <div class="die" id="die2"></div>
-      <div class="die" id="die3"></div>
-    </div>
-    <div class="row">
-      <div class="die" id="die4"></div>
-      <div class="die" id="die5"></div>
-      <div class="die" id="die6"></div>
-      <div class="die" id="die7"></div>
-    </div>
-    <div class="row">
-      <div class="die" id="die8"></div>
-      <div class="die" id="die9"></div>
-      <div class="die" id="die10"></div>
-      <div class="die" id="die11"></div>
-    </div>
-    <div class="row">
-      <div class="die" id="die12"></div>
-      <div class="die" id="die13"></div>
-      <div class="die" id="die14"></div>
-      <div class="die" id="die15"></div>
-    </div>
-  </div>
-
-  <script>
-    populateBoard('board1');
-    $('#newGame').click(function (){
-      populateBoard('board1');
-    })
-  </script>
 </body>
-
 </html>

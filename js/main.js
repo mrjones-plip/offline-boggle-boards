@@ -4,6 +4,8 @@ let dice
 // set rotateStates to be global so it can be shared between functions
 let rotateStates = shuffle(['','rotated90', 'rotated180','rotated270']);
 
+let countdownTimer;
+
 /**
  * Populate the board
  * @param board string ID of the DOM element to render the board
@@ -20,18 +22,57 @@ function populateBoard(board){
     placeDie(die, position, board);
     position++;
   }
+
+  ProgressCountdown(360 , 'board1' );
 }
 
+$('#newGame').click(function (){
+  populateBoard('board1');
+})
+cleanBoard('board1')
+
 /**
- * Reset the board's CSS classes to be empty
+ * Update a progress bar timer
+ * thanks https://stackoverflow.com/a/50846458
+ * @param timeleft seconds left of timer
+ * @constructor
+ */
+function ProgressCountdown(timeleft, board) {
+  document.getElementById('timer').value = timeleft;
+  document.getElementById('timer').setAttribute('max', timeleft);
+  if(typeof countdownTimer === 'number'){
+    clearInterval(countdownTimer);
+  }
+  countdownTimer = setInterval(function() {
+    timeleft--;
+
+    document.getElementById('timer').value = timeleft;
+
+    if (timeleft <= 0) {
+      console.log('done!')
+      endGame(board)
+      clearInterval(countdownTimer);
+    }
+  }, 1000);
+}
+
+function endGame(board) {
+  $('#' + board + ' .die' ).addClass('done');
+}
+
+
+/**
+ * Reset the board to be empty
  * @param board
  */
 function cleanBoard(board){
-  // remove classes from prior games
   rotateStates.forEach(rotateState => {
     $('#' + board + ' .die' ).removeClass(rotateState);
-  })
-  $('#' + board + ' .die' ).removeClass('underline')
+  });
+  $('#' + board + ' .die' )
+    .removeClass('underline')
+    .removeClass('done');
+  document.getElementById('timer').value = 0;
 }
 
 /**
