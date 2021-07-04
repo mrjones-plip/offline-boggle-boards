@@ -27,6 +27,7 @@ After the page is loaded.  When you're ready to play a new game, click the "New 
 
 * [X] Add timer
 * [X] Mobile support
+* [ ] Add anti-sleep features for mobile
 * [ ] Fix font sizing/centering
 * [ ] Enable pause
 * [ ] Add dark mode
