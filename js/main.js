@@ -23,7 +23,7 @@ function populateBoard(board){
     position++;
   }
 
-  ProgressCountdown(360 , 'board1' );
+  ProgressCountdown(180 , 'board1' );
 }
 
 $('#newGame').click(function (){

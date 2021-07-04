@@ -13,7 +13,7 @@ The easiest way to use this is to go to [the website](https://mrjones-plip.githu
 
 You can also download this repo and open the `index.html` page.
 
-After the page is loaded, you provide the paper and writing utensils.  When you're ready to play a new game, click the "New Game" button.
+After the page is loaded, you provide the paper and writing utensils.  When you're ready to play a new game, click the "New Game" button. The dice will change color when the game ends and the timer runs out.
 
 ## Outstanding features
 
@@ -22,6 +22,7 @@ After the page is loaded, you provide the paper and writing utensils.  When you'
 * [ ] fix font sizing/centering
 * [ ] enable pause
 * [ ] add dark mode
+* [ ] Add PWA support
 * [ ] ability to generate a page full of boards for printing/saving as PDF
 
 ## Thanks
