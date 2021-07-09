@@ -27,12 +27,12 @@ After the page is loaded.  When you're ready to play a new game, click the "New 
 
 * [X] Add timer
 * [X] Mobile support
-* [ ] Add anti-sleep features for mobile
+* [X] Add anti-sleep features for mobile
+* [ ] Add PWA support
+* [ ] Ability to generate a page full of boards for printing/saving as PDF
 * [ ] Fix font sizing/centering
 * [ ] Enable pause
 * [ ] Add dark mode
-* [ ] Add PWA support
-* [ ] Ability to generate a page full of boards for printing/saving as PDF
 
 ## Thanks
 
