@@ -3,8 +3,13 @@
 let dice
 // set rotateStates to be global so it can be shared between functions
 let rotateStates = shuffle(['','rotated90', 'rotated180','rotated270']);
-
+// set a globally accessible timer that can be reset w/i different functions
 let countdownTimer;
+// create a new NoSleep object that will be used in the click hanlder
+const noSleep = new NoSleep();
+// reset the board on first page load to make sure it's ready for
+// the first new game
+cleanBoard('board1')
 
 /**
  * Populate the board
@@ -26,10 +31,11 @@ function populateBoard(board){
   ProgressCountdown(180 , 'board1' );
 }
 
+// add click handler for the button to start the game and enable no sleep
 $('#newGame').click(function (){
-  populateBoard('board1');
+  populateBoard('board1')
+  noSleep.enable()
 })
-cleanBoard('board1')
 
 /**
  * Update a progress bar timer
