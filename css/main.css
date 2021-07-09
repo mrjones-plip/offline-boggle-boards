@@ -181,10 +181,19 @@ textarea {
   text-align:center;
   font-weight:bold;
   padding:5px 40px;
-  font-size:1.3rem;
-  line-height:2rem;
-  position:relative;
   transition:0.5s;
+  font-size:.8rem;
+  line-height: 1rem;
+  width:200px;
+  position:absolute;
+  top:60px;
+  right:-40px;
+  transform:rotate(45deg);
+  -webkit-transform:rotate(45deg);
+  -ms-transform:rotate(45deg);
+  -moz-transform:rotate(45deg);
+  -o-transform:rotate(45deg);
+  box-shadow:4px 4px 10px rgba(0,0,0,0.8);
 }
 #forkongithub a:hover{background:#c11;
   color:#fff;
@@ -211,24 +220,12 @@ textarea {
 #forkongithub {
   position:fixed;
   display:block;
-  top:-9px;
-  right:-17px;
   width:200px;
   overflow:hidden;
   height:200px;
   z-index:9999;
-}
-#forkongithub a {
-  width:200px;
-  position:absolute;
-  top:60px;
-  right:-40px;
-  transform:rotate(45deg);
-  -webkit-transform:rotate(45deg);
-  -ms-transform:rotate(45deg);
-  -moz-transform:rotate(45deg);
-  -o-transform:rotate(45deg);
-  box-shadow:4px 4px 10px rgba(0,0,0,0.8);
+  right: -55px;
+  top: -30px;
 }
 
 /* ==========================================================================
@@ -290,18 +287,9 @@ h1 {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 20em) {
+@media only screen and (min-width: 35em) {
   /* Style adjustments for viewports that meet the condition */
 
-  /*  snug up the fork me on github for mobile */
-  #forkongithub a {
-    font-size:.8rem;
-    line-height: 1rem;
-  }
-  #forkongithub {
-    right: -55px;
-    top: -30px;
-  }
 }
 
 @media print,
