@@ -290,8 +290,18 @@ h1 {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
+@media only screen and (min-width: 20em) {
   /* Style adjustments for viewports that meet the condition */
+
+  /*  snug up the fork me on github for mobile */
+  #forkongithub a {
+    font-size:.8rem;
+    line-height: 1rem;
+  }
+  #forkongithub {
+    right: -55px;
+    top: -30px;
+  }
 }
 
 @media print,
