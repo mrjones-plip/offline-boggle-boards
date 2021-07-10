@@ -4,7 +4,7 @@ This project is the answer to the question, "What's the easiest way to play Bogg
 
 If you load this app on your while online, it will continue to work without Internet connectivity.
 
-![Board Example](./offline.boggle.boards.png)
+[![Board Example](./offline.boggle.boards.png)](https://mrjones-plip.github.io/offline-boggle-boards/)
 
 ## Using
 
