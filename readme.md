@@ -2,7 +2,7 @@
 
 This project is the answer to the question, "What's the easiest way to play Boggle on a flight without internet?", but being frustrated that options in the app store all are ad laden.
 
-If you load this app on your while online, it will continue to work without Internet connectivity.
+If you load this app on your phone while online, it will continue to when offline, without Internet connectivity.
 
 [![Board Example](./offline.boggle.boards.png)](https://mrjones-plip.github.io/offline-boggle-boards/)
 
