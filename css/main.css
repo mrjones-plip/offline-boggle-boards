@@ -291,6 +291,9 @@ h1 {
 .dark-mode .die {
   color: lightgray;
 }
+.dark-mode .done {
+  background-color: darkmagenta;
+}
 
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.

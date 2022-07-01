@@ -28,7 +28,7 @@ function populateBoard(board){
     position++;
   }
 
-  ProgressCountdown(180 , 'board1' );
+  new ProgressCountdown(180 , 'board1' );
 }
 
 // add click handler for the button to start the game and enable no sleep
