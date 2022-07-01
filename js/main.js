@@ -5,7 +5,7 @@ let dice
 let rotateStates = shuffle(['','rotated90', 'rotated180','rotated270']);
 // set a globally accessible timer that can be reset w/i different functions
 let countdownTimer;
-// create a new NoSleep object that will be used in the click hanlder
+// create a new NoSleep object that will be used in the click handler
 const noSleep = new NoSleep();
 // reset the board on first page load to make sure it's ready for
 // the first new game
@@ -149,4 +149,22 @@ function shuffle(array) {
       array[randomIndex], array[currentIndex]];
   }
   return array;
+}
+
+/**
+ * Flip the theme back and forth between light and dark
+ */
+function toggleTheme() {
+  const element = document.body;
+  element.classList.toggle("dark-mode");
+  console.log("toggled!");
+}
+// add click handler to toggle theme
+$('#toggleTheme').click(function (){
+  toggleTheme();
+})
+// thanks https://stackoverflow.com/a/59621903 !
+if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+  // Dark
+  toggleTheme();
 }

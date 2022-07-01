@@ -282,6 +282,17 @@ h1 {
 }
 
 /* ==========================================================================
+   Theme Stuffs
+   ========================================================================== */
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+.dark-mode .die {
+  color: lightgray;
+}
+
+/* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
