@@ -294,6 +294,18 @@ h1 {
 .dark-mode .done {
   background-color: darkmagenta;
 }
+.dark-mode #forkongithub a {
+  background:#fff;
+  color:#000;
+  box-shadow:4px 4px 10px rgba(255,255,255,0.8);
+}
+.dark-mode #forkongithub a:hover{background:#c11;
+  color:#000;
+}
+.dark-mode #forkongithub a::before,#forkongithub a::after{
+  background:#000;
+}
+
 
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
